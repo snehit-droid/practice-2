@@ -16,7 +16,6 @@ app.listen(port, () => console.log(`your app is running with port no: ${port}`))
 const dbUrl = process.env.DB_URL || "mongodb://127.0.0.1:27017";
 
 //mongodb atlas url link:-
-// const atlasUrl = 'mongodb+srv://snehit_t:cmxXDK8le7Yzp2N5@cluster-storage.3iznn.mongodb.net/student_db?retryWrites=true&w=majority';
 
 app.get("/", (req,res) => {
     // res.send("Sample page from server");
